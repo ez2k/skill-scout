@@ -65,9 +65,18 @@ Claude Code에는 다양한 마켓플레이스와 스킬이 존재하지만, 사
 
 ## 설치
 
+터미널에서:
+
 ```bash
 claude plugin marketplace add ez2k/skill-scout
 claude plugin install skill-scout
+```
+
+또는 Claude Code 안에서:
+
+```
+/plugin marketplace add ez2k/skill-scout
+/plugin install skill-scout
 ```
 
 ## 사용법
@@ -93,10 +102,13 @@ claude plugin install skill-scout
 ```
 skill-scout/
 ├── .claude-plugin/
-│   └── plugin.json          # 플러그인 매니페스트
-└── skills/
-    └── scout/
-        └── SKILL.md         # 스킬 정의
+│   ├── plugin.json          # 플러그인 매니페스트
+│   └── marketplace.json     # 마켓플레이스 매니페스트
+├── skills/
+│   └── scout/
+│       └── SKILL.md         # 스킬 정의
+├── README.md                # 영문
+└── README.ko.md             # 한국어
 ```
 
 ## 라이선스

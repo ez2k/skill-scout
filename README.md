@@ -65,9 +65,18 @@ User request
 
 ## Installation
 
+From your terminal:
+
 ```bash
 claude plugin marketplace add ez2k/skill-scout
 claude plugin install skill-scout
+```
+
+Or inside Claude Code:
+
+```
+/plugin marketplace add ez2k/skill-scout
+/plugin install skill-scout
 ```
 
 ## Usage
@@ -92,10 +101,13 @@ claude plugin install skill-scout
 ```
 skill-scout/
 ├── .claude-plugin/
-│   └── plugin.json          # Plugin manifest
-└── skills/
-    └── scout/
-        └── SKILL.md         # Skill definition
+│   ├── plugin.json          # Plugin manifest
+│   └── marketplace.json     # Marketplace manifest
+├── skills/
+│   └── scout/
+│       └── SKILL.md         # Skill definition
+├── README.md                # English
+└── README.ko.md             # Korean
 ```
 
 ## License
