@@ -1,0 +1,6 @@
+{
+  "name": "skill-scout",
+  "description": "Discover, install, and run Claude Code skills from marketplaces, GitHub, and the web — all in one step.",
+  "version": "0.1.0",
+  "skills": "./skills/"
+}
