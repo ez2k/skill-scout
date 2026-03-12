@@ -65,13 +65,10 @@ User request
 
 ## Installation
 
-Clone this repo into your Claude Code plugins directory:
-
 ```bash
-git clone https://github.com/ez2k/skill-scout.git
+claude plugin marketplace add ez2k/skill-scout
+claude plugin install skill-scout
 ```
-
-Or place the repo anywhere — Claude Code auto-discovers the `.claude-plugin/` directory when you work inside it.
 
 ## Usage
 

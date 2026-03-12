@@ -65,13 +65,10 @@ Claude Code에는 다양한 마켓플레이스와 스킬이 존재하지만, 사
 
 ## 설치
 
-저장소를 클론합니다:
-
 ```bash
-git clone https://github.com/ez2k/skill-scout.git
+claude plugin marketplace add ez2k/skill-scout
+claude plugin install skill-scout
 ```
-
-또는 아무 위치에 저장소를 두면 됩니다 — Claude Code가 해당 디렉토리에서 작업할 때 `.claude-plugin/`을 자동으로 인식합니다.
 
 ## 사용법
 
