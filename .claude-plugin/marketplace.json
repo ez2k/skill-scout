@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-scout",
+  "description": "Discover, install, and run Claude Code skills from marketplaces, GitHub, and the web",
+  "owner": {
+    "name": "ez2k"
+  },
+  "plugins": [
+    {
+      "name": "skill-scout",
+      "description": "Discover, install, and run Claude Code skills from marketplaces, GitHub, and the web — all in one step.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ez2k"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/ez2k/skill-scout",
+      "tags": [
+        "skill",
+        "search",
+        "install",
+        "marketplace",
+        "meta-skill"
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}
